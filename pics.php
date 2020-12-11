@@ -1,0 +1,1 @@
+<a href="assets/img/zipland.php?directtozip=assets">Download All As Zip</a>
