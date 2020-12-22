@@ -16,9 +16,10 @@ include "head.php"; ?>
         <ul>
         	<li class="active"><a href="index.php">Home</a></li>
         	<li ><a href="about-us.php">About us</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="#">Publications</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="publications.php">Works</a></li>
+          <li><a href="blog/">Blog</a></li>
+          <li><a href="contact.php">Contact us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -37,7 +38,7 @@ include "head.php"; ?>
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Welcome to <span>Policy Analysis and Development Research Institute (PADRI)</span></h2>
               <p>PADRI is a research and training Institution to foster knowledge generation and dissemination for development through evidence-based quality research; capacity building and policy formulation.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Request Free Consultation</a></div>
+              <div class="text-center"><a href="contact.php" class="btn-get-started">Request Free Consultation</a></div>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@ include "head.php"; ?>
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Statistical Data Analysis</h2>
               <p>We also undertake client tailored capacity building in programmes such as Statistical Data analysis using STATA, SPSS, Eviews, e.t.c, Fiscal Planning and Budgeting, Project planning and management, Research methodology and M&E.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Get our Publications</a></div>
+              <div class="text-center"><a href="publications.php" class="btn-get-started">Get our Publications</a></div>
             </div>
           </div>
         </div>
@@ -59,7 +60,7 @@ include "head.php"; ?>
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Need further information?</h2>
               <p>Talk to us today and we can help you get done with qualitative and quatitative case studies of any relevant field. We are always available and shall get to you as soon as possible</p>
-              <div class="text-center"><a href="" class="btn-get-started">Talk to us!</a></div>
+              <div class="text-center"><a href="contact.php" class="btn-get-started">Talk to us!</a></div>
             </div>
           </div>
         </div>
@@ -93,7 +94,7 @@ include "head.php"; ?>
             <p> With our team of experts we have been able to undertake a number of research projects from social to political and financial matters at hand. We pride ourselves with a team of experts in <strong>Research</strong> from a diversity of research backgrounds.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Read more about us</a>
+            <a class="cta-btn align-middle" href="about-us.php">Read more about us</a>
           </div>
         </div>
 
@@ -105,7 +106,7 @@ include "head.php"; ?>
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Oue key <strong>Research Areas</strong></h2>
+          <h2>Our key <strong>Research Areas</strong></h2>
         </div>
 
         <div class="row">
@@ -175,7 +176,8 @@ include "head.php"; ?>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/publications/publication1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Macro-Economics Policy Tools</h4>
@@ -191,12 +193,12 @@ include "head.php"; ?>
               <p>Macro-Economics Policy Analysis</p>
               <a href="assets/publications/publication1.pdf" target="blank"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div>-->
 
 
           <!--monitoring publications-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/publications/publication3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Monitoring Policy Tools</h4>
@@ -213,11 +215,11 @@ include "head.php"; ?>
               <p>Monitoring, Learning and Evaluation</p>
               <a href="assets/publications/publication1.pdf" target="blank"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div>-->
 
           <!--monitoring publications-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/publications/publication2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Macro-Economics Policy Tools</h4>
@@ -242,18 +244,18 @@ include "head.php"; ?>
               <p>Macro-Economics, Poverty and Welfare Policy Analysis</p>
               <a href="assets/publications/publication1.pdf" target="blank"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div>-->
 
           <!--social publications-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-soc">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-soc">
             <img src="assets/publications/publication4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Social Sector Tools</h4>
               <p>Economics of Health, Climatic Change, Social Sector Analysis</p>
               <a href="assets/publications/publication1.pdf" target="blank"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div>-->
 
         </div>
 

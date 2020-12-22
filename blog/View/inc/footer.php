@@ -83,7 +83,18 @@
   <script src="<?=ROOT_URL?>assets/vendor/venobox/venobox.min.js"></script>
   <script src="<?=ROOT_URL?>assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="<?=ROOT_URL?>assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  
   <script src="<?=ROOT_URL?>assets/vendor/aos/aos.js"></script>
+
+  <script src="<?=ROOT_URL?>input/src/js/wysiwyg.js"></script>
+        <script src="<?=ROOT_URL?>input/src/js/highlight.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#editor').wysiwyg({
+
+                });
+            });
+        </script>
 
   <!-- Template Main JS File -->
   <script src="<?=ROOT_URL?>assets/js/main.js"></script>

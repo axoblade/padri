@@ -7,9 +7,25 @@
  */
 ?>
 <?php if (!empty($this->sErrMsg)): ?>
-    <p class="error"><?=$this->sErrMsg?></p>
+    
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+	  <strong>Alert!</strong> <?=$this->sErrMsg?>
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	    <span aria-hidden="true">&times;</span>
+	  </button>
+	</div>
+
 <?php endif ?>
 
 <?php if (!empty($this->sSuccMsg)): ?>
-    <p class="success"><?=$this->sSuccMsg?></p>
+    
+	<div class="alert alert-success alert-dismissible fade show" role="alert">
+	  <strong>Alert!</strong> <?=$this->sSuccMsg?>
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	    <span aria-hidden="true">&times;</span>
+	  </button>
+	</div>
+
 <?php endif ?>
+
+

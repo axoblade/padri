@@ -71,7 +71,7 @@
 
               <div class="entry-content">
                 <p>
-                  <?=nl2br(htmlspecialchars(mb_strimwidth($oPost->body, 0, 300, '...')))?>
+                  <?= nl2br(mb_strimwidth($oPost->body, 0, 300, '...'))?>
                 </p>
                 <div class="read-more">
                   <a href="<?=ROOT_URL?>?p=blog&amp;a=post&amp;id=<?=$oPost->id?>">Read more</a>

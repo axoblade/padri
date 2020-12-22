@@ -50,7 +50,7 @@
 
                         <div class="entry-content">
                             <p>
-                              <?=nl2br(htmlspecialchars($this->oPost->body))?>
+                              <?=nl2br($this->oPost->body)?>
                             </p>
 
                             <?php 

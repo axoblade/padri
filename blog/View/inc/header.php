@@ -24,6 +24,9 @@
   <link href="<?=ROOT_URL?>assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="a<?=ROOT_URL?>ssets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?=ROOT_URL?>assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?=ROOT_URL?>input/src/css/wysiwyg.css" rel="stylesheet">
+  <link href="<?=ROOT_URL?>input/src/css/highlight.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
   <!-- Template Main CSS File -->
   <link href="<?=ROOT_URL?>assets/css/style.css" rel="stylesheet">
@@ -66,16 +69,16 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-        	<li><a href="http://localhost:8888/padri">Home</a></li>
-        	<li ><a href="http://localhost:8888/padri/about.php">About us</a></li>
-          <li><a href="http://localhost:8888/padri/projects.php">Projects</a></li>
-          <li><a href="http://localhost:8888/padri/publications.php">Publications</a></li>
+        	<li><a href="../index.php">Home</a></li>
+        	<li ><a href="../about.php">About us</a></li>
+          <li><a href="../projects.php">Projects</a></li>
+          <li><a href="../publications.php">Works</a></li>
           <li class="active"><a href="<?=ROOT_URL?>">Blog</a></li>
-          <li><a href="http://localhost:8888/padri/contact.php">Contact us</a></li>
+          <li><a href="../contact.php">Contact us</a></li>
           <?php if (!empty($_SESSION['is_logged'])): ?>
           	<li><a href="<?=ROOT_URL?>?p=admin&amp;a=logout">Logout</a></li>
 
-          	<li><a href="<?=ROOT_URL?>?p=blog&amp;a=add'">Add Blog</a></li>
+          	<li><a href="<?=ROOT_URL?>?p=blog&amp;a=add">Add Blog</a></li>
 
                 <?php else: ?>
 

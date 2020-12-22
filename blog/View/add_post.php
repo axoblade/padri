@@ -9,17 +9,31 @@
 <?php require 'inc/header.php' ?>
 <?php require 'inc/msg.php' ?>
 
-<form action="" method="post">
 
-    <p><label for="title">Title:</label><br />
-        <input type="text" name="title" id="title" required="required" />
-    </p>
+<div class="container">
+    <div class="row">
+       	<form action="" method="post">
+            <div class="col-md-1">&nbsp;
+            </div>
+       	    <div class="col-md-10">
+                <div class="well" style="margin: 2rem 0;">
+                	<div class="form-group">
+	      		<input type="text" placeholder="Title" name="title" class="form-control" id="title" required="required" />
+        	</div>
+	                <div class="form-group">
+	                    <textarea id="editor" placeholder="Blog content" name="body" class="form-control" rows="3">
+	                    </textarea>                    
+	                </div>
 
-    <p><label for="body">Body:</label><br />
-        <textarea name="body" id="body" rows="5" cols="35" required="required"></textarea>
-    </p>
+	               <div class="form-row">
+	                  	<input type="submit" class="btn btn-sm btn-success btn-block" name="add_submit" value="Add" />
+	                </div>
+               	</div>
+            <div class="col-md-1">&nbsp;</div>
+            </div>
+        </form>
+    </div>
+</div>
 
-    <p><input type="submit" name="add_submit" value="Add" /></p>
-</form>
 
 <?php require 'inc/footer.php' ?>

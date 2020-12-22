@@ -20,7 +20,8 @@ include "head.php"; ?>
           <li><a href="index.php">Home</a></li>
           <li><a href="about-us.php">About us</a></li>
           <li><a href="projects.php">Projects</a></li>
-          <li class="active"><a href="publications.php">Publications</a></li>
+          <li class="active"><a href="publications.php">Works</a></li>
+          <li><a href="blog/">Blog</a></li>
           <li><a href="contact.php">Contact us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -34,10 +35,10 @@ include "head.php"; ?>
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Our Publications</h2>
+          <h2>Our Works</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>Publications</li>
+            <li>Works</li>
           </ol>
         </div>
 
@@ -55,7 +56,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/cvd.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">

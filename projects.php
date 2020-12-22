@@ -17,8 +17,9 @@ include "head.php"; ?>
           <li><a href="index.php">Home</a></li>
           <li><a href="about-us.php">About us</a></li>
           <li class="active"><a href="projects.php">Projects</a></li>
-          <li><a href="#">Publications</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="publications.php">Works</a></li>
+          <li><a href="blog/">Blog</a></li>
+          <li><a href="contact.php">Contact us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -53,7 +54,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/women-savings.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -92,7 +93,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/women-empower.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -121,7 +122,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/mulago-hospital.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -148,7 +149,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+                <img src="assets/img/disabled.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -176,7 +177,7 @@ include "head.php"; ?>
             <article class="entry" data-aos="fade-up">
 
               <div class="entry-img">
-                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/refugee.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">

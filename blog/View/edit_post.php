@@ -13,17 +13,28 @@
     <p class="error">Post Data Not Found!</p>
 <?php else: ?>
 
-    <form action="" method="post">
-        <p><label for="title">Title:</label><br />
-            <input type="text" name="title" id="title" value="<?=htmlspecialchars($this->oPost->title)?>" required="required" />
-        </p>
+    
+       <div class="container">
+    <div class="row">
+        <form action="" method="post">
+            <div class="col-md-10">
+                <div class="well" style="margin: 2rem 0;">
+                    <div class="form-group">
+                <input type="text" class="form-control" name="title" id="title" value="<?=htmlspecialchars($this->oPost->title)?>" required="required"/>
+            </div>
+                    <div class="form-group">
+                        <textarea id="editor" name="body" rows="5" cols="35"><?=htmlspecialchars($this->oPost->body)?>>
+                        </textarea>                    
+                    </div>
 
-        <p><label for="body">Body:</label><br />
-            <textarea name="body" id="body" rows="5" cols="35" required="required"><?=htmlspecialchars($this->oPost->body)?></textarea>
-        </p>
-
-        <p><input type="submit" name="edit_submit" value="Update" /></p>
-    </form>
+                   <div class="form-row">
+                        <input type="submit" class="btn btn-sm btn-success btn-block" name="edit_submit" value="Update" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 <?php endif ?>
 
 <?php require 'inc/footer.php' ?>

@@ -18,8 +18,9 @@ include "head.php"; ?>
           <li><a href="index.php">Home</a></li>
           <li class="active"><a href="about-us.php">About us</a></li>
           <li><a href="projects.php">Projects</a></li>
-          <li><a href="#">Publications</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="publications.php">Works</a></li>
+          <li><a href="blog/">Blog</a></li>
+          <li><a href="contact.php">Contact us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
